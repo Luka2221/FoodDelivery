@@ -1,0 +1,653 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: "Source Sans 3", sans-serif;
+    
+}
+
+.Header{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.MainLogoPos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.MainLogo{
+    width: 28px;
+}
+.MainTitle{
+    color: #F17228;
+    font-size: 30px;
+    font-weight: bold;
+}
+.MainTitlesecondtxt{
+    color: #FFB30E;
+}
+.headersearchAndUser{
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+.HeaderUserButton{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid;
+    color: #FFB30E;
+    font-size: 25px;
+    box-shadow: 10px 10px 104px 0px rgba(255,168,51,1);
+}
+.LoginaTag{
+    text-decoration: none;
+    color: #F17228;
+}
+
+.InputLabel{
+    width: 100px;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 0px solid;
+    color: black;
+    font-weight: bold;
+
+}
+
+.Headersearch{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+  
+}
+/* First Section style Code */
+
+.FirsSection{
+    position: relative;
+    width: 100%;
+    height: 385px;
+}
+.FirstSectionTexts{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 1440px;
+}
+.FirstSectionTexts h1{
+    color: white;
+    font-size: 40px;
+}
+.FirstSectionTexts p{
+    color: #504F4F;
+}
+.FirrstSectionPhoto{
+    width: 100%;
+    height: 380px;
+    
+}
+.DeliveryAndAdress{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    height: 150px;
+    width: 530px;
+    justify-content: space-evenly;  
+}
+.DeliveryAndPickup{
+    display: flex;
+    gap: 5px;
+    margin-left: 15px;
+}
+.DeliveryContent{
+    background-color: rgba(241, 114, 40, 0.2);
+    border-radius: 8px;
+    padding: 5px; 
+    gap: 5px;
+    width: 130px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.DeliveryContent p{
+    color: #F17228;
+    font-weight: bold;
+}
+.DeliveryContent img{
+    width: 20px;
+}
+.PickupContent{
+    border-radius: 8px;
+    padding: 5px; 
+    gap: 5px;
+    width: 130px;
+    height: 20px;
+    display: flex;
+}
+.PickupContent img{
+    width: 15px;
+}
+.PickupContent p{
+    color: #757575;
+    font-weight: bold;
+}
+.AdressAndFood{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+}
+.AdressAndFood input{
+    width: 300px;
+    height: 50px;
+    border: 0px solid;
+    background-color:#F5F5F5;
+    
+}
+.enterAdress{
+    display: flex;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-left: 15px;
+    gap: 5px;
+    padding: 10px;
+    
+}
+.FindFood{
+    display: flex;
+    border: 0px solid;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 150px;
+    height: 50px;
+    background-color: #F65900;
+}
+.FindFood p{
+    color: white;
+}
+.FindFood img{
+    width: 15px;
+}
+.FirstMainMeal{
+    position: absolute;
+    right: 250px;
+    bottom: 0px;
+}
+.FirstMealPhoto{
+    width: 500px;
+}
+
+/* Discont Mela Section Codes*/
+.FirstDiscountMealSection{
+    margin-top: 50px;
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+.DiscountMealPos{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    gap: 9px;
+}
+.DiscountMealPhoto{
+    width: 250px;
+    height: 200px;
+    border-radius: 16px;
+}
+.DiscountDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    font-size: 33px;
+    left:  0px;
+    bottom: 0px;
+    border: 0px solid;
+    background-color: #FFB30E;
+    border-radius:  0px 14px 0px 14px  ;
+    width: 100px;
+    height: 60px;
+    color: white;
+}
+.DiscountMealPos p{
+    color: #424242;
+    font-weight: bold;
+    font-size: 20px;
+}
+.DaysRemainingDiv{
+    text-align: center;
+    border: 0px solid ;
+    width: 150px;
+    height: 50px;
+    color: #F17228;
+    font-weight: bold;
+    background-color: rgba(241, 114, 40, 0.2);
+}
+/* information section code */
+
+.InformationSection{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+.InformatioMainBlock{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center
+}
+.InformationSection h1{
+    color: #F17228;
+
+}
+.Locationimg{
+    width: 80px;
+}
+.InformationBlocks{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center; 
+    text-align: center;  
+
+}
+.InformationBlocks h4{
+    color: #434343;
+
+}
+.InformationBlocks p{
+    color: gray;
+
+}
+/* Popular items section code */
+.PopularItemsMainBlock{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+.PopularItemsPhoto{
+    width: 200px;
+    border-radius: 16px;
+}
+.PopularLocation{
+    display: flex;
+    gap: 4px;
+}
+.PopularItemsBlocks p{
+    color: #FFB30E;
+
+}
+.PopularItemsContainer{
+    display: flex;
+    gap: 15px;
+}
+
+.PopularItemsBlocks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.PopulariTemsButton{
+    border: 0 solid;
+    width: 190px;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #F17228;
+    text-align: center;
+    color: white;
+    box-shadow: 10px 10px 104px 0px rgba(255, 168, 51, 1);
+}
+.PopularItemsBlocks h3{
+    color: #424242;
+
+}
+.PopularItemsBlocks span{
+    font-weight: bold;
+}
+
+/* Featured Restaurants code */
+.FeatureRestaurantsFirstSection{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+.FeaturedRestaurantsWholesection{
+    display: flex;
+    gap: 10px;
+}
+.FeaturedRestaurandmainDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    gap: 15px;
+}
+.Discountelement{
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    font-size: 20px;
+    top: 15px;
+    left: 15px;
+    background-color: #F17228;
+    border-radius: 8px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+}
+.Timeelement{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    font-size: 20px;
+    right:  58px;
+    top: 15px;
+    border: 0px solid;
+    background-color: #FFB30E;
+    border-radius: 8px;
+    width: 70px;
+    color: white;
+    font-weight: bold;
+}
+.FoodworldPhoto{
+    width: 250px;
+    height: 200px;
+    border-radius: 16px;
+}
+.FeaturedRestaurantGap{
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+    align-items: center;
+}
+.FeaturedRestaurants{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.StarAndnumber{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+}
+.RestaurnadAndName{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;    
+}
+.RestaurnadAndName p{
+    font-weight: bold;
+}
+.StarAndnumber p{
+    color: #FFB30E;
+}
+.StarAndnumber img{
+    width: 18px;
+}
+.opensTomorrow{
+    text-align: center;
+    border: 0px solid;
+    border-radius: 16px;
+    width: 150px;
+    height: 50px;
+    color: #F17228;
+    font-weight: bold;
+    background-color: rgba(241, 114, 40, 0.2);
+    font-family: "Source Sans 3", sans-serif;
+}
+.openNow{
+    text-align: center;
+    border: 0px solid;
+    border-radius: 16px;
+    width: 100px;
+    height: 50px;
+    color: rgba(51, 170, 51,  1) ;
+    font-weight: bold;
+    background-color: rgba(51, 170, 51, .1);
+}
+.viewallDiv{
+    display: flex;
+    border: 0px solid;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border-radius: 14px;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(#FFBA26, #FF9A0E);
+    box-shadow: 10px 10px 104px 0px rgba(255, 168, 51, 1);
+}
+/* Search By Food Section Style code */
+.MainSearchByFoodSection{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #FEFAF1;
+
+}
+.SearchbayfoodAndarrows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1030px;
+}
+.Arrow{
+    width: 70px;
+}
+.SearchbayfoodAndarrows p{
+    color: #FFB30E;
+    font-weight: bold;
+
+}
+.ViewallandArrows{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.SearchbyFoods{
+    display: flex;
+    gap: 25px;
+}
+.FoodAndName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.FoodAndName img{
+    width: 140px;
+    border-radius: 50%;
+}
+.FoodAndName p{
+    font-weight: bold;
+}
+/* Proceed to order */
+.PreccedOrdePhoto{
+    width: 100%;
+}
+.ProceedToorderSection{
+    margin-top: 100px;
+    position: relative;
+}
+.ProceedOrderTxts{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: c;
+    top: 30%;
+    left: 35%;
+}
+.ProceedOrderTxts h1{
+    color: white;
+
+    font-size: 40px
+}
+.ProceedToorde{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    border: 0 solid;
+    width: 190px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #F17228;
+    color: white;
+}
+
+/*  Footer Section Style Code*/
+.Footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #212121;
+    color: #F5F5F5;
+    gap: 20px;
+}
+.Footer .FotterH1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.FooterDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.FooterCities{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.FooterAboutSectionLeft{
+    background-color: #212121 ;
+    color: #F5F5F5;
+    display: flex;
+    gap: 50px;
+}
+.FooterAboutSectionLeft h1{
+    color: white;
+    font-size: 20px;
+}
+.FooterAbout{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.FooterAboutSectionLeft{
+    display: flex;
+    gap: 100px;
+}
+hr{
+    width: 900px;
+    color: gray;
+    align-self: center; 
+}
+.Hr{
+    margin-top: 50px;
+    width: 1000px;
+    color: gray;
+    align-self: center;
+}
+.FooterBothSection{
+    margin-top: 50px;
+    background-color: #212121 ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.FooterAboutSectionRight p{
+    color: #BBBBBB;
+}
+.FooterAboutSectionRight h1{
+    color: #F5F5F5;
+}
+.FooterAboutSectionRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.FooterImages{
+    display: flex;
+    gap: 10px;
+}
+.SuncribeBtn{
+    display: flex;
+    border: 0px solid;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-image: linear-gradient(#FFBA26, #FF9A0E);
+    box-shadow: 10px 10px 104px 0px rgba(255, 168, 51, 1);
+}
+.InputDiv input{
+    width: 200px;
+    height: 20px;
+    border: 0px solid;
+    background-color: #424242;
+}
+.InputDiv{
+    display: flex;
+    align-items: center;
+    background-color: #424242;
+    border-radius: 8px;
+    gap: 5px;
+    padding: 10px;
+}
+.inputAndBtn{
+    display: flex;
+    gap: 10px;
+}
+.Copyright span{
+    color: white;
+}
+.Copyright{
+    display: flex;
+    justify-content: center;    
+}
